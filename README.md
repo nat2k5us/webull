@@ -29,7 +29,7 @@ wb.login('+1-1112223333', 'pa$$w0rd') # phone must be in format +[country_code]-
 ```
 
 # Place an order
-```
+```python
 from webull import webull
 wb = webull()
 wb.login('youremail@gmail.com', 'paswd')
@@ -38,7 +38,7 @@ wb.get_trade_token('123456')
 wb.place_order(stock='TSLA', price=190.0, qty=12)
 ```
 # Order Status
-```
+```python
 from webull import webull
 wb = webull()
 wb.login('youremail@gmail.com', 'paswd')
@@ -47,7 +47,7 @@ wb.get_trade_token('123456')
 orders = wb.get_current_orders()
 ```
 # Cancel order 
-```
+```python
 from webull import webull
 wb = webull()
 wb.login('youremail@gmail.com', 'paswd')
@@ -55,4 +55,6 @@ wb.login('youremail@gmail.com', 'paswd')
 wb.get_trade_token('123456')
 wb.cancel_all_orders()
 ```
-# https://github.com/tedchou12/webull/wiki
+
+## References
+- <https://github.com/tedchou12/webull/wiki>
