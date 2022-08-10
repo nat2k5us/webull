@@ -2,7 +2,8 @@
 
 ## https://www.webull.com/
 
-https://www.buymeacoffee.com/nat2k5usW
+
+[<img src="https://miro.medium.com/max/1476/1*KGh1GBqI9R0TfSsSPHGpNg.png" width="200px">](https://www.buymeacoffee.com/nat2k5usW)
 
 ## INstall webull lib
 
