@@ -12,3 +12,11 @@ pip install webull
 pip install pytest requests_mock
 ```
 
+# Step 1
+- login
+```python
+from webull import webull # for paper trading, import 'paper_webull'
+
+wb = webull()
+wb.login('test@test.com', 'pa$$w0rd')
+```
